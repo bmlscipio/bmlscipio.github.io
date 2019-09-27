@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<h1>Timeclock v1</h1>
+
+SSID: <input type="text" id="SSID_input" value="">
+<button onclick="SSID_button_function()">Enter</button>
+<p id="SSID_display"></p>
+
+<script>
+function SSID_button_function() {
+  var SSID = document.getElementbyID("SSID_input").value;
+  document.getElementById("SSID_display").innverHTML = x;
+}
+</script>
+  
 </body>
 </html>
